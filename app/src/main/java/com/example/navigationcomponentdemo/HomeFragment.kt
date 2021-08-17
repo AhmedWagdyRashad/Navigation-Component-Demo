@@ -14,7 +14,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         button_login.setOnClickListener {
             val action = HomeFragmentDirections.actionHomeFragmentToLoginFragment()
             findNavController().navigate(action) // this will be a little different if you using java
-
+            
         }
     }
 }
